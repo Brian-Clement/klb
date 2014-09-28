@@ -4,6 +4,15 @@ core = 7.x
 
 base theme = bootstrap
 
+; CSS
+stylesheets[all][] = assets/styles/css/custom.css
+stylesheets[print][] = assets/styles/css/print.css
+; stylesheets[screen and {max-width: 600px}][] = assets/styles/css/media.css
+; stylesheets-conditional[if lt IE 8][all][] = assets/styles/css/ie.css
+
+; JS
+
+regions[custom] = 'Custom'
 regions[navigation]     = 'Navigation'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'

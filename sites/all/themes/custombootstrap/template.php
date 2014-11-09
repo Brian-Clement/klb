@@ -62,13 +62,21 @@ function custombootstrap_preprocess_html(&$variables) {
 }
 
 /**
- * THEME_preprocess_image_style() is also available.
- */
+ * THEME_preprocess_image_style() -- Set responsive class on images served via Views
+ */ 
 function custombootstrap_preprocess_image(&$variables) {
   if(isset($variables['style_name'])) {
     if($variables['style_name'] == '700') {
       $variables['attributes']['class'][] = "img-responsive";
     }
   }
-  //var_dump($variables);
+}
+
+/**
+ * THEME_preprocess_page -- Remove no content message on taxonomy pages
+ */
+function custombootstrap_preprocess_page(&$vars) {
+  if(isset($vars['page']['content']['system_main']['no_content'])) {
+    unset($vars['page']['content']['system_main']['no_content']);
+  }
 }

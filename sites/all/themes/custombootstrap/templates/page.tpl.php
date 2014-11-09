@@ -121,8 +121,6 @@
     <?php endif; ?>
 
     <?php print render($page['header']); ?>
-	
-	<?php print render($page['custom']); ?>
   </header> <!-- /#page-header -->
 
   <div class="row">

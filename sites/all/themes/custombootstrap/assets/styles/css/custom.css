@@ -1,6 +1,5 @@
 .navbar-default {
   background-color: rgba(34, 34, 34, 0.7);
-  background-image: -moz-linear-gradient(top, #dcc2c2 0%, rgba(34, 34, 34, 0.7) 100%);
 }
 html {
   background: linear-gradient(#000000, rgba(0, 0, 0, 0.2)), url(../../images/klb_home1.png) no-repeat center center fixed;

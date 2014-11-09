@@ -57,5 +57,6 @@
 
 function custombootstrap_preprocess_html(&$variables) {
   drupal_add_css('http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700', array('type' => 'external'));
+  drupal_add_css('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', array('type' => 'external'));
   drupal_add_js('http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', 'external');
 }

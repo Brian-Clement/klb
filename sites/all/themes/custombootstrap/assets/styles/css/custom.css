@@ -218,6 +218,9 @@ a:active {
 .thumbnail .caption {
   color: inherit;
 }
+.view-portfolio-photos .thumbnail {
+  padding: 15px;
+}
 /********************************************************/
 /*                 Everything else                      */
 /********************************************************/

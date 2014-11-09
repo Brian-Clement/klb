@@ -143,11 +143,3 @@
 <footer class="footer container">
   <?php print render($page['footer']); ?>
 </footer>
-<!-- Load js libs only when the page is loaded. -->
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="assets/js/modernizr.custom.72241.js"></script>
-<!-- Custom template scripts -->
-
-<!--<script src="assets/js/klb.js"></script>-->
-<script src="assets/js/respond.js"></script>

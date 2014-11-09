@@ -60,3 +60,15 @@ function custombootstrap_preprocess_html(&$variables) {
   drupal_add_css('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', array('type' => 'external'));
   drupal_add_js('http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js', 'external');
 }
+
+/**
+ * THEME_preprocess_image_style() is also available.
+ */
+function custombootstrap_preprocess_image(&$variables) {
+  if(isset($variables['style_name'])) {
+    if($variables['style_name'] == '700') {
+      $variables['attributes']['class'][] = "img-responsive";
+    }
+  }
+  //var_dump($variables);
+}

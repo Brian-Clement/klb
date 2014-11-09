@@ -102,6 +102,9 @@ a:active {
   .lead {
     font-size: 1.3em;
   }
+  .title {
+    font-size: 4em;
+  }
 }
 /********************************************************/
 /*                    Navigation bar                    */

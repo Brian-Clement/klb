@@ -66,7 +66,7 @@ function custombootstrap_preprocess_html(&$variables) {
  */ 
 function custombootstrap_preprocess_image(&$variables) {
   if(isset($variables['style_name'])) {
-    if($variables['style_name'] == '700') {
+    if($variables['style_name'] == '700' || $variables['style_name'] == '1100') {
       $variables['attributes']['class'][] = "img-responsive";
     }
   }
